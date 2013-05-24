@@ -11,16 +11,16 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 7. now we're ready to write some code so in your terminal run the command `touch index.html`
 8. open your desired text editor and open the `index.html` file that was created in the previous step
 9. we're now going to begin writing some HTML code, if you want to cheat then you can [just copy and paste from one that's been prepared](index.html); if you don't want to cheat then let's go through it step by step:
-	a. first we have to declare the document type for our HTML page (the 'doctype'); nowadays people generally only care about HTML5 so we'll stick with that and write `<!DOCTYPE html>` on the first line
-	b. on the next line we begin our HTML [tag](https://www.google.co.uk/search?q=what+is+a+html+tag) by writing `<html>`
-	c. now we begin to code the header portion of our HTML page (the bit that's *usually* hidden from view, it's generally reserved for holding any [meta data](http://en.wikipedia.org/wiki/Meta_element) and [styles](https://developer.mozilla.org/en-US/docs/Web/CSS) for the page) so we write `<head>` (opening the tag)
-	d. we now define the character set for our HTML page by writing `<meta charset="utf-8" />` on a new line (notice the `/>` at the end of the tag: this means the tag closes itself; it's *self closing*)
-	e. we *could* add some more tags but we're going to skip ahead and add a title to our page, we do this by writing on a new line `<title>Hello World</title>`; here the title is 'Hello World' (everything within the tag) and notice how we open and close the tag
-	f. we're now at the end of our header portion for now so we close it by writing `</head>` on a new line
-	g. now we're getting into the body portion of our HTML page (the bit where everything visibile is placed) so we begin by writing `<body>` on a new line
-	h. within our body we're simply going to write a phrase, in this case it's `Hello World`, so stick this on another new line
-	i. now that's probably enough for our body so we need to close the tag by writing `</body>` on a new line
-	j. and finally you'll (hopefully) notice that we've still got our `<html>` tag open so we need to close that too to complete the document, therefore we write `</html>` on the following line
+	1. first we have to declare the document type for our HTML page (the 'doctype'); nowadays people generally only care about HTML5 so we'll stick with that and write `<!DOCTYPE html>` on the first line
+	2. on the next line we begin our HTML [tag](https://www.google.co.uk/search?q=what+is+a+html+tag) by writing `<html>`
+	3. now we begin to code the header portion of our HTML page (the bit that's *usually* hidden from view, it's generally reserved for holding any [meta data](http://en.wikipedia.org/wiki/Meta_element) and [styles](https://developer.mozilla.org/en-US/docs/Web/CSS) for the page) so we write `<head>` (opening the tag)
+	4. we now define the character set for our HTML page by writing `<meta charset="utf-8" />` on a new line (notice the `/>` at the end of the tag: this means the tag closes itself; it's *self closing*)
+	5. we *could* add some more tags but we're going to skip ahead and add a title to our page, we do this by writing on a new line `<title>Hello World</title>`; here the title is 'Hello World' (everything within the tag) and notice how we open and close the tag
+	6. we're now at the end of our header portion for now so we close it by writing `</head>` on a new line
+	7. now we're getting into the body portion of our HTML page (the bit where everything visibile is placed) so we begin by writing `<body>` on a new line
+	8. within our body we're simply going to write a phrase, in this case it's `Hello World`, so stick this on another new line
+	9. now that's probably enough for our body so we need to close the tag by writing `</body>` on a new line
+	10. and finally you'll (hopefully) notice that we've still got our `<html>` tag open so we need to close that too to complete the document, therefore we write `</html>` on the following line
 
 10. Hopefully you should now have a document that looks simular to this:
 
