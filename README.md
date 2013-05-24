@@ -9,6 +9,8 @@ Before you start make sure you have the following bases covered:
 - You have [git](http://git-scm.org) [installed](https://help.github.com/articles/set-up-git)
 - You have your favourite web browser open
 
+Once you're cool with that then start off at [Chapter 1's Hello World](chapter-1/hello-world.md).
+
 ## Index
 - [**Chapter 1 – Getting started**](chapter-1)
 	- [Hello World](chapter-1/hello-world.md): we create a simple HTML page, use git to version it and deploy it online on to github.com's `gh-pages`
