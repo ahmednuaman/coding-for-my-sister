@@ -15,7 +15,7 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 	2. on the next line we begin our HTML [tag](https://www.google.co.uk/search?q=what+is+a+html+tag) by writing `<html>`
 	3. now we begin to code the header portion of our HTML page (the bit that's *usually* hidden from view, it's generally reserved for holding any [meta data](http://en.wikipedia.org/wiki/Meta_element) and [styles](https://developer.mozilla.org/en-US/docs/Web/CSS) for the page) so we write `<head>` (opening the tag)
 	4. we now define the character set for our HTML page by writing `<meta charset="utf-8" />` on a new line (notice the `/>` at the end of the tag: this means the tag closes itself; it's *self closing*)
-	5. we *could* add some more tags but we're going to skip ahead and add a title to our page, we do this by writing on a new line `<title>Hello World</title>`; here the title is 'Hello World' (everything within the tag) and notice how we open and close the tag
+	5. we *could* add some more tags but we're going to skip ahead and add a title to our page, we do this by writing on a new line `<title>Hello World</title>`; here the title is `Hello World` (everything within the tag) and notice how we open and close the tag
 	6. we're now at the end of our header portion for now so we close it by writing `</head>` on a new line
 	7. now we're getting into the body portion of our HTML page (the bit where everything visibile is placed) so we begin by writing `<body>` on a new line
 	8. within our body we're simply going to write a phrase, in this case it's `Hello World`, so stick this on another new line
@@ -49,7 +49,7 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 		  </body>
 		</html>
 
-11. now we need to add this file to git, this'll then allow git to track any changes to the file that we choose to commit, we begin by returning to our terminal and writing `git add index.html` 
+11. now we need to add this file to git, this'll then allow git to track any changes to the file that we choose to commit, we begin by returning to our terminal and writing `git add index.html`
 12. now we need to commit the file to git so we write `git commit -v -m 'my first commit' index.html`; here's a little explaination of the arguments for this command:
 	a. the arguments that begin with a hyphen/dash (-) are called [flags](http://en.wikipedia.org/wiki/Command-line_interface) and we're using two:
 		1. `-v` makes our commit verbose
