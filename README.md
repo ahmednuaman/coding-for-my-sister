@@ -12,7 +12,7 @@ Before you start make sure you have the following bases covered:
 Once you're cool with that then start off at [Chapter 1's Hello World](chapter-1/hello-world/).
 
 ## Index
-- [**Chapter 1 – Getting Started**](chapter-1)
+- [**Chapter 1 – Getting Started**](chapter-1/)
 	- [Hello World](chapter-1/hello-world/): we create a simple HTML page, use git to version it and deploy it online on to github.com's `gh-pages`
 
 ## Errata or Suggestions

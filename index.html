@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="http://bootswatch.com/readable/bootstrap.min.css" />
+    <title>Coding for My Sister</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="loading">
+        <h3>Loading</h3>
+        <div class="progress progress-striped active" style="width: 50%;">
+          <div class="bar" style="width: 100%;"></div>
+        </div>
+      </div>
+      <div id="error" class="alert alert-error" style="display: none;">
+        <b>Oh dear.</b> The requested page <span id="error-page-url"></span> could not be loaded; sad panda.
+      </div>
+      <div id="content" style="display: none;"></div>
+    </div>
+    <!-- don't do this kids -->
+    <script src="http://ahmednuaman.github.io/marked/lib/marked.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script>
+      $(function () {
+        var content = $('#content');
+        var error = $('#error');
+        var errorPage = $('#error-page-url');
+        var loading = $('#loading');
+        var path;
+
+        var handleHashChange = function(event) {
+          path = window.location.hash.replace('#', '') + 'README.md';
+
+          content.hide();
+          error.hide();
+          loading.show();
+
+          $.get(path)
+          .then(handleGetPathSuccess, handleGetPathFailed);
+        };
+
+        var handleGetPathSuccess = function(data) {
+          error.hide();
+          loading.hide();
+
+          content.html(marked(data)).show().find('a:not([href^=http])').click(changeLinksToHashes);
+        };
+
+        var handleGetPathFailed = function() {
+          errorPage.text(path);
+
+          content.show();
+          error.show();
+          loading.hide();
+        };
+
+        var changeLinksToHashes = function (event) {
+          var a = $(this);
+
+          event.preventDefault();
+
+          window.location.hash = a.attr('href');
+        }
+
+        window.onhashchange = handleHashChange;
+        window.onhashchange();
+      });
+    </script>
+  </body>
+</html>
