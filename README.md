@@ -7,7 +7,8 @@ Before you start make sure you have the following bases covered:
 
 - You have a favourite text editor, I recommend [Sublime Text](http://sublimetext.com) or [Brackets](http://brackets.io)
 - You have [git](http://git-scm.org) [installed](https://help.github.com/articles/set-up-git)
-- You have your favourite web browser open
+- You have your favourite [web](http://getfirefox.com) [browser](http://google.com/chrome) open
+- You have your favourite [terminal](https://www.google.co.uk/search?q=open+terminal) open
 
 Once you're cool with that then start off at [Chapter 1's Hello World](chapter-1/hello-world/).
 
