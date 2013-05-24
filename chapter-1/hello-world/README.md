@@ -63,4 +63,4 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 18. and now we're going to push this commit and this new branch up to github.com, so we write `git push origin gh-pages`
 19. when that's done we need to wait a few minutes for github.com's servers to have a think about it and then in your web browser visit `http://[YOUR GITHUB USERNAME].github.io/[YOUR GITHUB REPO NAME]/index.html` ([example](http://ahmednuaman.github.io/coding-for-my-sister/chapter-1/hello-world/index.html)) and you should see your HTML page all rendering and glorious!
 
-Good work!
+Good work! Now continue over to [Typography](chapter-1/typography/).
