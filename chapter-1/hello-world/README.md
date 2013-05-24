@@ -21,6 +21,7 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 	8. within our body we're simply going to write a phrase, in this case it's `Hello World`, so stick this on another new line
 	9. now that's probably enough for our body so we need to close the tag by writing `</body>` on a new line
 	10. and finally you'll (hopefully) notice that we've still got our `<html>` tag open so we need to close that too to complete the document, therefore we write `</html>` on the following line
+	11. and as a little tip you can just open the `index.html` file in your favourite web browser to check it out
 
 10. Hopefully you should now have a document that looks simular to this:
 
@@ -48,7 +49,7 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 		  </body>
 		</html>
 
-11. now we need to add this file to git, this'll then allow git to track any changes to the file that we choose to commit, we begin by returning to our terminal and writing `git add index.html`
+11. now we need to add this file to git, this'll then allow git to track any changes to the file that we choose to commit, we begin by returning to our terminal and writing `git add index.html` 
 12. now we need to commit the file to git so we write `git commit -v -m 'my first commit' index.html`; here's a little explaination of the arguments for this command:
 	a. the arguments that begin with a hyphen/dash (-) are called [flags](http://en.wikipedia.org/wiki/Command-line_interface) and we're using two:
 		1. `-v` makes our commit verbose
