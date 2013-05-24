@@ -2,20 +2,20 @@
 
 An introduction to coding for my sister (and anyone else).
 
-## Starting off
+## Prerequisites
 Before you start make sure you have the following bases covered:
 
 - You have a favourite text editor, I recommend [Sublime Text](http://sublimetext.com) or [Brackets](http://brackets.io)
 - You have [git](http://git-scm.org) [installed](https://help.github.com/articles/set-up-git)
 - You have your favourite web browser open
 
-Once you're cool with that then start off at [Chapter 1's Hello World](chapter-1/hello-world.md).
+Once you're cool with that then start off at [Chapter 1's Hello World](chapter-1/hello-world/).
 
 ## Index
-- [**Chapter 1 – Getting started**](chapter-1)
-	- [Hello World](chapter-1/hello-world.md): we create a simple HTML page, use git to version it and deploy it online on to github.com's `gh-pages`
-	
-## Errata
+- [**Chapter 1 – Getting Started**](chapter-1)
+	- [Hello World](chapter-1/hello-world/): we create a simple HTML page, use git to version it and deploy it online on to github.com's `gh-pages`
+
+## Errata or Suggestions
 
 Fork the repo, make the desired update and submit a pull request.
 
