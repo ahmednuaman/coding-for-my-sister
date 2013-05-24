@@ -1,4 +1,4 @@
-# Coding for my sister
+# Coding for My Sister
 
 An introduction to coding for my sister (and anyone else).
 
