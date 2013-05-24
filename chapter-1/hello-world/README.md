@@ -1,6 +1,6 @@
 # 1.1 Hello World
 
-So what we're going to cover here is how to write and deploy a simple HTML page to the web. We're going to use [git](http://git-scm.org) to version the files, Sublime Text (or your favourite text editor) to write the files and github.com to host the files.
+So what we're going to cover here is how to write and deploy a simple HTML page to the web. We're going to use [git](http://git-scm.org) to version the files, your favourite text editor to write the files and github.com to host the files.
 
 1. go to github.com
 2. create a new repository (repo for short) and call it `hello-world`
@@ -9,7 +9,7 @@ So what we're going to cover here is how to write and deploy a simple HTML page 
 5. navigate into that folder from your terminal by running `cd ~/Coding\ Tests`
 6. back on the github page you'll notice that it'll give you some instructions titled '*Create a new repository on the command line*', follow them
 7. now we're ready to write some code so in your terminal run the command `touch index.html`
-8. open your desired text editor/Sublime Text and open the `index.html` file that was created in the previous step
+8. open your desired text editor and open the `index.html` file that was created in the previous step
 9. we're now going to begin writing some HTML code, if you want to cheat then you can [just copy and paste from one that's been prepared](index.html); if you don't want to cheat then let's go through it step by step:
 	a. first we have to declare the document type for our HTML page (the 'doctype'); nowadays people generally only care about HTML5 so we'll stick with that and write `<!DOCTYPE html>` on the first line
 	b. on the next line we begin our HTML [tag](https://www.google.co.uk/search?q=what+is+a+html+tag) by writing `<html>`
