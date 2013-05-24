@@ -1,4 +1,4 @@
-# Hello World
+# 1.1 Hello World
 
 So what we're going to cover here is how to write and deploy a simple HTML page to the web. We're going to use [git](http://git-scm.org) to version the files, Sublime Text (or your favourite text editor) to write the files and github.com to host the files.
 
